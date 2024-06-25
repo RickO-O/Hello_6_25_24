@@ -27,14 +27,3 @@ app.get('/whatILike', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
-
-
-let bgc = Document.getElementsByTagName('button')
-
-
-let skibidi=0
-
-
-if(skibidi==0){
-  bgc.style.backgroundColor = "lime"
-}
