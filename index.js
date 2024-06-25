@@ -5,7 +5,7 @@ const port = 3000;
 
 
 app.get('/home', (req, res) => {
-  res.sendFile(__dirname + '/home.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 
